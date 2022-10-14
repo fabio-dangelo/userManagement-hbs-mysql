@@ -82,7 +82,7 @@ CREATE TABLE `usermanagement_tut`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `f
 
 - Create User
 
-**SQL TERMINAL ERROR INSERT INTO user**
+**CLI SQL ERROR INSERT INTO user**
 
 ```ERROR
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17
