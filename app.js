@@ -53,4 +53,6 @@ app.use(logger('dev'))
 // Router
 app.use('/', routes)
 
-app.listen(port, () => console.log(`Server start on http://localhost:${port}`))
+app.listen(port, () =>
+  console.log(`Server listening on http://localhost:${port}`)
+)
