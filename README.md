@@ -114,4 +114,4 @@ INSERT INTO `user`
 (NULL, 'Holly',       'Holm ',        'hholm@ufc.com',         '012345 678910', '',          'active'),
 (NULL, 'Joanna',      'Jedrzejczyk ', 'jjedrzejczyk@ufc.com',  '012345 678910', '',          'active')
 ```
-# userManagement-hbs-mysql
+
