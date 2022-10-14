@@ -1,0 +1,47 @@
+<nav>
+    <ol>
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">/ Edit-User</li>
+    </ol>
+</nav>
+
+
+{{#each rows}}
+
+<h3>{{this.first_name}} {{this.last_name}}</h3>
+
+
+
+<table>
+    <thead>
+        <th scope='col'>First Name</th>
+        <th scope='col'>Last Name</th>
+        <th scope='col'>Email</th>
+        <th scope='col'>Phone</th>
+    </thead>
+
+    <thead class="small-table">
+        <tr>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope='row'>{{this.first_name}}</th>
+            <td>{{this.last_name}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.phone}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="comments-container">
+    <b>Comments</b>
+    <div class="comments">
+        {{this.comments}}
+    </div>
+</div>
+{{/each}}

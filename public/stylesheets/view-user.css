@@ -1,0 +1,13 @@
+main > h3 {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.comments-container {
+  display: block;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}

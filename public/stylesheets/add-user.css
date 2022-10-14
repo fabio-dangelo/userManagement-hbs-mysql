@@ -1,0 +1,167 @@
+main > nav > ol {
+  display: flex;
+  list-style: none;
+  padding-left: 10rem;
+}
+
+main > nav > ol > li > a {
+  color: #2c3034;
+}
+
+main > nav > ol > li {
+  color: #6c757d;
+  padding-right: 0.5rem;
+}
+
+main > form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+main > form > input {
+  width: 32rem;
+  padding: 0.8rem;
+  margin: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.2rem;
+}
+
+main > form > input[type='text'],
+main > form > input[type='email'] {
+  font-size: 1em;
+}
+
+main > form > input::placeholder {
+  color: #2c3034;
+  font-size: 1em;
+  opacity: 1;
+}
+
+main > form > textarea {
+  width: 65rem;
+  height: 15rem;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.2rem;
+  font-size: 1em;
+  padding: 0.5rem;
+}
+
+main > form > textarea::placeholder {
+  color: #2c3034;
+  font-size: 1em;
+  opacity: 1;
+}
+
+main > form > button {
+  width: 65rem;
+  padding: 0.6rem;
+  border-radius: 0.2rem;
+  border: 1px solid #f8f9fa;
+  background-color: #212529;
+  color: #f8f9fa;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+/* DESKTOP LARGE */
+@media screen and (min-width: 95rem) {
+  main > nav > ol {
+    padding-left: 14rem;
+  }
+
+  main > form > input {
+    width: 45.5rem;
+  }
+
+  main > form > textarea {
+    width: 92rem;
+  }
+
+  main > form > button {
+    width: 92rem;
+  }
+}
+
+/* DESKTOP MEDIUM */
+@media screen and (max-width: 72rem) {
+  main > nav > ol {
+    padding-left: 7rem;
+  }
+
+  main > form > input {
+    width: 25.5rem;
+  }
+
+  main > form > textarea {
+    width: 52rem;
+  }
+
+  main > form > button {
+    width: 52rem;
+  }
+}
+
+/* DESKTOP SMALL */
+@media screen and (max-width: 53rem) {
+  main > nav > ol {
+    padding-left: 4.5rem;
+  }
+
+  main > form > input {
+    width: 17rem;
+  }
+
+  main > form > textarea {
+    width: 35rem;
+  }
+
+  main > form > button {
+    width: 35rem;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 40rem) {
+  main > nav > ol {
+    padding-left: 4rem;
+  }
+
+  main > form > input {
+    width: 12.5rem;
+  }
+
+  main > form > textarea {
+    width: 26rem;
+  }
+
+  main > form > button {
+    width: 26rem;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 27rem) {
+  main > nav > ol {
+    padding-left: 2.5rem;
+  }
+
+  main > form > input {
+    width: 10rem;
+  }
+
+  main > form > textarea {
+    width: 21rem;
+  }
+
+  main > form > button {
+    width: 21rem;
+  }
+}

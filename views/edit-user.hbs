@@ -1,0 +1,19 @@
+<nav>
+    <ol>
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">/ Edit-User</li>
+    </ol>
+</nav>
+
+{{#if alert}}
+<div class="alert">{{alert}}
+    <button type="button" class="bi bi-x" id="alert-button"></button>
+</div>
+{{/if}}
+
+
+{{#each rows}}
+<form method="POST" action="/edituser/{{this.id}}" novalidate>
+    {{> user-form}}
+</form>
+{{/each}}

@@ -1,0 +1,55 @@
+.alert {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  justify-content: space-between;
+  width: 92rem;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid #badbcc;
+}
+
+.alert button {
+  border: none;
+  background-color: #d1e7dd;
+  color: #67726d;
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+
+/* DESKTOP LARGE */
+@media screen and (max-width: 95rem) {
+  .alert {
+    width: 65rem;
+  }
+}
+
+/* DESKTOP MEDIUM */
+@media screen and (max-width: 72rem) {
+  .alert {
+    width: 52rem;
+  }
+}
+
+/* DESKTOP SMALL */
+@media screen and (max-width: 53rem) {
+  .alert {
+    width: 35rem;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 40rem) {
+  .alert {
+    width: 26rem;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 27rem) {
+  .alert {
+    width: 21rem;
+  }
+}

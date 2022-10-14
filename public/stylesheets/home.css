@@ -1,0 +1,116 @@
+main > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1.2rem;
+}
+
+main > div > h1 {
+  font-weight: 500;
+}
+
+main > div > a {
+  background-color: #212529;
+  height: 2.5rem;
+  width: 7rem;
+  border-radius: 0.2rem;
+  color: #f8f9fa;
+  text-decoration: none;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+  font-size: 1.1em;
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+
+main > table {
+  margin: auto;
+  padding: 1rem;
+  width: 80%;
+  text-align: center;
+}
+
+main > table > thead > tr > th,
+main > table > tbody > tr > th,
+main > table > tbody > tr > td {
+  border: 1px solid #eef0f2;
+  padding: 0.2rem;
+}
+
+main > table > tbody > tr > td:nth-child(6),
+main > table > tbody > tr > td:nth-child(7),
+main > table > tbody > tr > td:nth-child(8) {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+main > table > tbody > tr > td > a {
+  background-color: #d8dadb;
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  padding: 0.5rem;
+  margin-left: 0.2rem;
+  border-radius: 5px;
+}
+
+.small-table {
+  display: none;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 70rem) {
+  main > table > tbody > tr > td > a {
+    display: block;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    width: 7rem;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 43rem) {
+  main > table > thead {
+    display: none;
+  }
+  .small-table {
+    display: block;
+  }
+
+  main > table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25rem;
+  }
+
+  main > table > thead > tr {
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+  }
+
+  main > table > tbody > tr {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+  }
+
+  main > table > thead > tr > th:nth-child(6) {
+    padding-bottom: 5.2rem;
+  }
+
+  main > table > tbody > tr > td:nth-child(6),
+  main > table > tbody > tr > td:nth-child(7),
+  main > table > tbody > tr > td:nth-child(8) {
+    padding-left: 3.9rem;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 25rem) {
+  main > table {
+    width: 22rem;
+    padding: 0;
+  }
+}
