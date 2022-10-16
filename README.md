@@ -26,7 +26,7 @@
 - [mysql2 github](https://github.com/sidorares/node-mysql2)
 - [nodemon github](https://github.com/remy/nodemon)
 - [livereload github](https://github.com/napcs/node-livereload)
-- [connect-livereloader github](https://github.com/intesso/connect-livereload)
+- [connect-livereload github](https://github.com/intesso/connect-livereload)
 
 ### CDN
 
